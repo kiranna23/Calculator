@@ -130,7 +130,7 @@ namespace Calculate
             }
         }
 
-        private void bMinus_Click(object sender, EventArgs e)
+        private void bMinus_Click(object sender, EventArgs e) //какое-то описание 
         {
             if (!(tb_Calc.Text.IndexOf("-")>-1&& tb_Calc.Text.Length - 1 == tb_Calc.Text.IndexOf("-")))
             {
@@ -155,7 +155,7 @@ namespace Calculate
             
         }
 
-        private void bUmn_Click(object sender, EventArgs e)
+        private void bUmn_Click(object sender, EventArgs e) //клики
         {
             if (tb_Calc.Text == "") tb_Calc.Text = "0";
             else
@@ -169,7 +169,7 @@ namespace Calculate
             }
         }
 
-        private void bDelenie_Click(object sender, EventArgs e)
+        private void bDelenie_Click(object sender, EventArgs e) //очередное какое-то описание
         {
             if (tb_Calc.Text == "") tb_Calc.Text = "0";
             else
